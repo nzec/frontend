@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+
+
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+.header {
+	background:url('../img/l.png');
+	background-size:cover;
+	color:#ffffff;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-attachment: fixed;
+	background-color: #03A9F4; 
+	background-attachment: fixed;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+}
+
+.header h2{
+	font-size:60px;
+	text-transform: uppercase;
+	font-weight:300;
+	margin-top:150px;
+	text-align: center;
+}
+
+.header p{
+	font-size:18px;
+	font-weight:400;
+	text-align: center;
+	margin-top:40px;
+}
+
+.header a {
+	color: white;
+}
+
+.header a:visited {
+    color: white;
+}
+
+.header a:hover {
+	text-decoration: none;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+	text-decoration: none;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+.scrollarea {
+	text-align: center;
+	margin-top: 150px;
+	font-size: 25px;
+}
+
+.arguments {
+	padding-top: 60px;
+	padding-bottom: 70px;
+	color:#383838;
+}
+
+.arguments h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.bloc {
+	text-align: center;
+}
+
+.bloc i {
+	font-size: 40px;
+	margin-top: 50px;
+}
+
+
+.bloc h2 {
+	font-size: 24px;
+	font-weight:700;
+	margin-top:30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.bloc p {
+	text-align: left;
+	margin-top: 30px;
+}
+
+.about {
+	background: #EAEAEA;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+
+.about p {
+	padding-top: 20px;
+}
+
+.about img {
+	margin: auto;
+}
+
+.links {
+	font-size: 30px;
+}
+
+.footer {
+	padding-top: 40px;
+	text-align: center;
+	background-color: #212121;
+	color: white;
+}
+
+.footer p {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.footer h2 {
+	font-size: 60px;
+}
+
+.fa-github {
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width:415px) and (max-width:768px) {
+	.mymenu{
+	float:left;
+}
