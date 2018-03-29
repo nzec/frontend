@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Slate | Search</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+		<script>
+			function func() {
+				var inp = document.getElementById('inp');
+				var des = document.getElementById("buy-des");
+				if (inp.value.toLowerCase() == "buy" || inp.value.toLowerCase() == "design" || inp.value.toLowerCase() == "buy design"|| inp.value.toLowerCase() == "design buy")
+				{
+
+					des.style.display = "block";
+				}
+				else {
+					des.style.display = "none";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="banner">
+			<div class="wrap">
+				<h1>Slate</h1>
+			</div>
+		</div>
+
+		<div class="nav">
+			<div class="wrap">
+				<form onsubmit="javascript:func();return false;" >
+					<label for="search"><i class="fa fa-search" aria-hidden="true"></i></label>
+					<input id="inp" type="search" name="" id="search" placeholder="Search for 'buy design'">
+					<button class="btn">Search</button>
+				</form>
+			</div>
+		</div>
+
+		<ul class="res" id="buy-des" style="display: none;">
+			<li>
+				<img src="img/01.png" alt="Polyhedron">
+				<div class="res-info">
+					<h2>Polyhedron Modern Design</h2>
+					<a href="#" class="btn">View Product on Amazon</a>
+					<p class="text">&#8377; 999</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/02.png" alt="Social Networking App">
+				<div class="res-info">
+					<h2>Social Networking App Design</h2>
+					<a href="#" class="btn">View Product on Amazon</a>
+					<p class="text">&#8377; 999</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/03.png" alt="Social Networking App">
+				<div class="res-info">
+					<h2>Social Networking App Design</h2>
+					<a href="#" class="btn">View Product on Amazon</a>
+					<p class="text">&#8377; 999</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/04.png" alt="Paper Bag">
+				<div class="res-info">
+					<h2>Paper Bag Design</h2>
+					<a href="#" class="btn">View Product on Amazon</a>
+					<p class="text">&#8377; 500</p>
+				</div>
+			</li>
+			
+			<li>
+				<img src="img/05.png" alt="Business Card">
+				<div class="res-info">
+					<h2>Business Card Design</h2>
+					<a href="#" class="btn">View Product on PSDesigns</a>
+					<p class="text">&#8377; 250</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/06.png" alt="Wine Bottle">
+				<div class="res-info">
+					<h2>Wine Bottle Design</h2>
+					<a href="#" class="btn">View Product on ClassyDesigns</a>
+					<p class="text">&#8377; 1999</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/07.png" alt="Branding Card">
+				<div class="res-info">
+					<h2>Branding Card Design</h2>
+					<a href="#" class="btn">View Product on DesignFresh</a>
+					<p class="text">&#8377; 250</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/08.png" alt="Book Cover">
+				<div class="res-info">
+					<h2>Minimalist Book Cover PSD</h2>
+					<a href="#" class="btn">View Product on PSDesigns</a>
+					<p class="text">&#8377; 250</p>
+				</div>
+			</li>
+
+			<li>
+				<img src="img/09.png" alt="iPhone 6+">
+				<div class="res-info">
+					<h2>iPhone 6+ Mockup PSD</h2>
+					<a href="#" class="btn">View Product on PSDesigns</a>
+					<p class="text">&#8377; 250</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/10.png" alt="Shopping Website">
+				<div class="res-info">
+					<h2>Modern Ecommerce Design</h2>
+					<a href="#" class="btn">View Product on DesignFresh</a>
+					<p class="text">'&#8377; 1999</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/11.png" alt="Supermarket Packaging">
+				<div class="res-info">
+					<h2>Supermarket Packaging Design</h2>
+					<a href="#" class="btn">View Product on DesignFresh</a>
+					<p class="text">&#8377; 1999</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/12.png" alt="Social Networking App">
+				<div class="res-info">
+					<h2>Social Networking App Design</h2>
+					<a href="#" class="btn">View Product on Amazon</a>
+					<p class="text">&#8377; 999</p>
+				</div>
+			</li>
+		</ul>
+	</body>
+</html>
