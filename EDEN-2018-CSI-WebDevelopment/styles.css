@@ -5,6 +5,9 @@
     padding: 0;
     transition: 0.3s;
 }
+a {
+    border-radius: 2px;
+}
 .wrapper {
     width: 1440px;
     max-width: 90%;
@@ -97,7 +100,7 @@ nav ul li a:hover {
     padding: 80px 50px;
     box-shadow: 0px 0px 57px 0px rgba(4,6,9,.25);
     border-radius: 10px;
-    color: #3f3d4e !important;
+    color: #3f3d4e;
     text-align: center;
     width: 30%;
 }
@@ -118,4 +121,79 @@ nav ul li a:hover {
 }
 .box .btn-cool:hover {
     box-shadow: 3px 3px 3px rgba(50, 50, 93, 0.22), 3px 3px 6px rgba(0, 0, 0, 0.59), inset 0 45px 0 0 #00000040;
+}
+
+/* Announcements */
+.announcements {
+    height: 450px;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(45deg, #5c5e75 0%,#040405 100%);
+}
+.announcements h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #bab9cb;
+}
+.announcements p {
+    color: #adacc4;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+
+/* Contact */
+.contact {
+    background: #f2f1f8;    
+    height: 350px;
+    padding: 80px;
+    text-align: center;
+}
+.contact h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #3f3d4e;
+}
+.contact p {
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #ada8d6;
+}
+.contact .btn-cool {
+    padding: 20px 90px;
+    border-radius: 3px;
+    font-size: 17px;
+    transition: 0.2s;
+    display: inline-block;
+    background: linear-gradient(45deg, #703f98 0%,#16a6df 100%);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    color: #fff;
+}
+.contact .btn-cool:hover {
+    box-shadow: 3px 3px 3px rgba(50, 50, 93, 0.22), 3px 3px 6px rgba(0, 0, 0, 0.59), inset 0 -90px 0 0 #00000040;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    padding-top: 25px;
+    height: 75px;
+}
+.footer p {
+    display: inline-block;
+    color: #6a6a77;
+}
+.footer a p:hover {
+}
+.footer .made-with {
+    float: right;
+}
+.up {
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: solid #6a6a77;
+    border-width: 0 2.5px 2.5px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-135deg);
 }
