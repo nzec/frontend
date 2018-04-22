@@ -1,8 +1,8 @@
 * {
+    box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff;
     transition: 0.3s;
 }
 .wrapper {
@@ -11,6 +11,7 @@
     margin: 0 auto;
 }
 section.header {
+    color: #fff;
     height: 100vh;
     background: linear-gradient(45deg, #703f98 0%,#16a6df 100%);
     background-size: cover;
@@ -78,4 +79,42 @@ nav ul li a:hover {
 .downer a {
     padding-left: 50%;
     cursor: context-menu;
+}
+
+
+/* Services */
+.services {
+    padding: 40px 0 50px;
+    background: #f2f1f8;
+}
+.services .wrapper {
+    max-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+.box {
+    padding: 80px 50px;
+    box-shadow: 0px 0px 57px 0px rgba(4,6,9,.25);
+    border-radius: 10px;
+    color: #3f3d4e !important;
+    text-align: center;
+    width: 30%;
+}
+.box h1 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.box p {
+    margin-bottom: 30px;
+}
+.box .btn-cool {
+    transition: 0.2s;
+    display: inline-block;
+    background: linear-gradient(45deg, #703f98 0%,#16a6df 100%);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    color: #fff;
+}
+.box .btn-cool:hover {
+    box-shadow: 3px 3px 3px rgba(50, 50, 93, 0.22), 3px 3px 6px rgba(0, 0, 0, 0.59), inset 0 45px 0 0 #00000040;
 }
