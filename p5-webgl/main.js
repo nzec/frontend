@@ -1,5 +1,10 @@
 let angle = 0;
 
+function preload() {
+    // loads an image asynchnorously before running the program
+    img = loadImage('./assets/img.jpg');
+}
+
 function setup() {
     // create a 3D canvas
     createCanvas(windowWidth, windowHeight, WEBGL)
@@ -54,6 +59,9 @@ function draw() {
     // ambient stuff
     ambientLight(0, 0, 255);
     ambientMaterial(255);
+
+    // use an image as a texture
+    texture(img);
 
     // create object
     torus(300, 100, 100, 100);
