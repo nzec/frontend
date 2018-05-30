@@ -13,9 +13,8 @@ function setup() {
 function draw() {
 
     // create background
-    background(0);
+    background(20);
 
-    
     // mouse stuff
     let locX = mouseX - width / 2;
     let locY = mouseY - height / 2;
@@ -27,45 +26,55 @@ function draw() {
     -width/2,height/2  -------------width/2,height/2 */
 
     // movement according to mouse
-    translate(locX, locY);
+    // translate(locX, locY);
 
     // fill object with color
     // fill (0, 0, 0);
 
     // normalMaterial();
-    
-    // rotate object
-    rotateZ(angle);
-    rotateY(angle);
-    rotateX(angle);  
-    
+
     // stroke object
     // stroke(255, 204, 0);
     // strokeWeight(1);
     noStroke();
 
+    
+    // create vector
+    let vector = createVector(locX, locY, 300);
 
     // point light
     // pointLight(0, 0, 255, locX, locY, 350);
     // pointLight(255, 0, 0, locY, locX, 350);
-    
-    // create vector
-    let vector = createVector(locX, locY, 300);
-    vector.normalize();
-
     // directional light
-    directionalLight(255, 0, 0, vector);
+    directionalLight(255, 255, 0, vector);
+    
+    // do not affect other stuff
+    push();
+
+    // rotate object
+    rotateZ(angle);
+    rotateY(angle);
+    rotateX(angle);  
 
     // ambient stuff
-    ambientLight(0, 0, 255);
+    // ambientLight(0, 0, 255);
     ambientMaterial(255);
 
     // use an image as a texture
     texture(img);
 
     // create object
-    torus(300, 100, 100, 100);
+    torus(150, 50, 50, 50);
+    
+    // do not affect other stuff
+    pop();
+
+    translate(0, 200);
+    rotateX(HALF_PI);
+    ambientMaterial(255);
+    plane(1000);
 
     // rotate object with time
     angle += 0.009;
+
 }
