@@ -15,6 +15,10 @@ function draw() {
     // create background
     background(20);
 
+    camera(0, 0, (height / 2) / tan(PI / 6), 0, 0, 0, 0, 1, 0)
+
+    translate(0, 0, mouseX);
+
     // mouse stuff
     let locX = mouseX - width / 2;
     let locY = mouseY - height / 2;
