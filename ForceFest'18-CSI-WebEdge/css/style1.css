@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Avenir;
+	src: url(../fonts/Avenir-Roman.woff);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Avenir;
+	src: url(../fonts/Avenir-Medium.woff);
+	font-weight: medium;
+}
+@font-face {
+	font-family: Avenir;
+	src: url(../fonts/Avenir-Black.woff);
+	font-weight: 900;
+}
+@font-face {
+	font-family: Avenir;
+	src: url(../fonts/Avenir-Heavy.woff);
+	font-weight: bold;
+}
+@font-face {
+	font-family: Avenir;
+	src: url(../fonts/Avenir-Light.woff);
+	font-weight: lighter;
+}
+input::placeholder, textarea::placeholder {
+	color: #fff;
+	font-size: 0.875em;
+}
+input:focus::placeholder, textarea::focus:placeholder {
+	color: #fff;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+	color: #fff;
+	font-size: 0.875em;
+}
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+	color: #fff;
+}
+input:hover::placeholder, textarea:hover::placeholder {
+	color: #fff;
+	font-size: 0.875em;
+}
+* {
+	transition: 0.3s;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: Avenir, sans-serif;
+	margin: 0;
+	height: 100vh;
+	background: linear-gradient(to right, #333333, #dd1818);
+	color: #fff;
+}
+header {
+	position: relative;
+	margin: 100px 0 25px 0;
+	font-size: 2.3em;
+	text-align: center;
+	letter-spacing: 7px;
+}
+#form {
+	position: relative;
+	width: 500px;
+	margin: 50px auto 100px auto;
+}
+input, a {
+	font-size: 0.875em;
+	width: 470px;
+	height: 50px;
+	padding: 0px 15px 0px 15px;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	border: solid 1px #b3aca7;
+}
+textarea {
+	font-family: Avenir, sans-serif; 
+	width: 470px;
+	max-width: 470px;
+	height: 110px;
+	max-height: 110px;
+	padding: 15px;
+	background: transparent;
+	outline: none;
+	color: #fff;
+	font-size: 0.875em;
+	border: solid 1px #b3aca7;
+}
+input:hover, textarea:hover, a {
+	background: #00000040;
+	color: #fff;
+}
+#submit {
+	width: 502px;
+	padding: 0;
+	margin: -5px 0px 0px 0px;
+	font-size: 0.875em;
+	color: #b3aca7;
+	outline:none;
+	cursor: pointer;
+	border: solid 1px #b3aca7;
+	border-top: none;
+}
+#submit:hover {
+	background: #00000040;
+	color: #fff;
+}
