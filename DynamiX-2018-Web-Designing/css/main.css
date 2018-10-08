@@ -25,10 +25,14 @@ a.link {
     text-decoration: none;
     border-bottom: solid 2px #3b74e1;
 }
-a.link:hover {
+a:hover {
     transition: 0.2s;
     opacity: 0.8;
 }
+
+
+
+
 
 .sec-1 {
     background: url("../img/sec-1.jpg");
@@ -272,6 +276,7 @@ header {
     position: fixed;
     z-index: 999;
     background: transparent;
+    padding: 10px 0;
 }
 nav {
     display: flex;
