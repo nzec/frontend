@@ -12,6 +12,8 @@ html,body {
     padding: 18px 30px;
     background: #fff;
     border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
 }
 .green {
     background: #26b564;
