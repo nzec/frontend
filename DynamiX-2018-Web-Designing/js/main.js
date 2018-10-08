@@ -32,7 +32,6 @@ $(document).ready(function() {
     fadeInUp('.sec-4 .inner-sec');
     
     setTimeout(function() {
-        console.log("Hey!");
         $(".loader").fadeOut("slow");
     }, 1000)
 });
