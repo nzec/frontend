@@ -1,7 +1,8 @@
 # LandingPage-Hax
-Repository for the Landing Pages I made for Hax in eSpice - V14.0
-
-###### Please Note: This Website was not used in the final submission.
+Repository for the Landing Pages I made for Hax in eSpice - V14.0 (Delhi Public School, Noida)
 
 ## Results
-Cambridge School Indirapuram did not manage to qualify the Prelims.
+Not Qualified.
+
+---
+This Website was not used in the final submission.
