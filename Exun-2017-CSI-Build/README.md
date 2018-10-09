@@ -1,4 +1,5 @@
 # Exun-2017-CSI-Build
-Repository for CSI's submission for Build in Exun 2017
+Repository for CSI's submission for Build in Exun 2017 (Delhi Public School, R.K. Puram)
 
-###### Please Note: Cambridge School did not go for the event because the Principal did not allow us to do so. So, this project is not complete. 
+---
+Didn't go for the event. So, this project is incomplete. 
