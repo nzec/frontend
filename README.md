@@ -9,5 +9,5 @@
 * [EDEN-2018-CSI-DISEÑO](https://duttaditya18.github.io/frontend/EDEN-2018-CSI-DISEÑO)
 * [ForceFest'18-CSI-WebEdge](https://duttaditya18.github.io/frontend/ForceFest'18-CSI-WebEdge)
 * [p5-webgl](https://duttaditya18.github.io/frontend/p5-webgl)
-* [DynamiX-2018-CSI-Web-Designing	/home](https://duttaditya18.github.io/frontend/DynamiX-2018-CSI-Web-Designing	/home)
-* [DynamiX-2018-CSI-Web-Designing	/on-spot](https://duttaditya18.github.io/frontend/DynamiX-2018-CSI-Web-Designing/on-spot)
+* [DynamiX-2018-Web-Designing/home](https://duttaditya18.github.io/frontend/DynamiX-2018-Web-Designing/home)
+* [DynamiX-2018-Web-Designing/on-spot](https://duttaditya18.github.io/frontend/DynamiX-2018-Web-Designing/on-spot)
