@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    overflow-x: none;
+}
+.button {
+    cursor: pointer;
+    padding: 18px 30px;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+.blue {
+    background: #03b3d8;
+    color: #ffffff;
+    margin-left: 20px;
+}
+a.link {
+    color: #03b3d8;
+    text-decoration: none;
+    border-bottom: solid 2px #03b3d8;
+}
+a:hover {
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
+
+
+
+
+.sec-1 {
+    background: url("../img/sec-1-x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    height: 100vh;
+}
+.sec-1 .left, .sec-1 .right {
+    height: 60vh;
+    width: 60vh;
+}
+.sec-1 .left {
+    padding: 40px;
+}
+.sec-1 .left h1 {
+    color: #ffffff;
+    font-size: 80px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.sec-1 .left h1 span {
+    background: -webkit-linear-gradient(#03b3d8, #0070aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec-1 .left p {
+    margin-top: 40px;
+    color: #ffffff;
+}
+.sec-1 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.sec-2 {
+    background: #052838;
+    background-repeat: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    height: 100vh;
+    color: #03b3d8;
+}
+.sec-2 .left {
+    width: 40vh;
+}
+.sec-2 .left h1 {
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+.sec-2 .left p {
+    font-size: 15px;
+}
+.sec-2 .left .inner-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+}
+.sec-2 .left .inner-flex div {
+    width: 40%;
+}
+.sec-2 .left .inner-flex div h4 {
+    margin-bottom: 1rem; 
+}
+.sec-2 .left .inner-flex div p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+.sec-3 {
+    height: 100vh;
+    background: #03b3d8;
+    color: #052838;
+}
+.sec-3 h1 {
+    text-align: center;
+    padding-top: 300px;
+    margin: 0;
+    font-size: 50px;
+}
+.sec-3 .inner-sec {
+    box-sizing: content-box;
+    background: url("../img/sec-3-img.png");
+    background-repeat: no-repeat;
+    background-position: left 60vh bottom 0px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3 .inner-sec .box {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.1);
+    background: #ffffff;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 10px;
+    width: 260px;
+    height: 290px;
+}
+.sec-3 .inner-sec .box h3 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.sec-3 .inner-sec .box ul {
+    padding-inline-start: 20px;
+}
+.sec-3 .inner-sec .box p {
+    margin-bottom: 40px;
+}
+.sec-3 .inner-sec .box p span {
+    font-size: 27px;
+    font-weight: bold;
+}
+.sec-3 .inner-sec .box .button {
+    padding: 15px 40px;
+    margin-left: 0;
+}
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: transparent;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    font-size: 12px;
+}
+nav a {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+nav a.button {
+    margin: 15px;
+    padding: 12px 15px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+.heart {
+    color: #e25555;
+}
+
