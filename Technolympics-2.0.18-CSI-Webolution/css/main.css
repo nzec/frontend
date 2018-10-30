@@ -1,3 +1,81 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h100 {
+    height: 100vh;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    transition: 0.2s;
+    opacity: 0.8;
+}
+.btn {
+    cursor: pointer;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #000000;
+}
+.green {
+    background-color: #26b564;
+    color: #ffffff;
+}
+.link {
+    color: #3b74e1;
+    border-bottom: solid 3px #3b74e1;
+}
+
+
+
+.sec-1 {
+    background-image: url('https://duttaditya18.github.io/frontend/DynamiX-2018-CSI-Web-Designing/home/img/sec-1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sec-1 .left {
+    width: 400px;
+    color: #ffffff;
+}
+.sec-1 .left .btn {
+    margin-right: 10px;
+}
+.sec-1 h1 {
+    font-size: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.sec-1 p {
+    padding-top: 30px;
+}
+
+
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: transparent;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav .btn {
+    padding: 9px 20px;
+}
+nav div a {
+    margin: 15px;
 }
