@@ -9,4 +9,4 @@ Repository for CSI's submission for Web-Designing in DynamiX 2018 (Ramjas School
 
 
 ## Results
-TBD
+3rd Position.
